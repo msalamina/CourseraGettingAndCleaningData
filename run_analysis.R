@@ -35,5 +35,5 @@ tempResult <- labelledMergeData[grep("mean|std|Activity|Subject", names(labelled
 
 #  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 # Write data set
-write.table(tempResult, file="MovementStatistics.csv", row.name=FALSE, sep=",")
+write.table(tempResult, file="MovementStatistics.txt", row.name=FALSE, sep=",")
 
